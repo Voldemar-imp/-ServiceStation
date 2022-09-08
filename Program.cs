@@ -286,7 +286,6 @@ namespace ServiceStation
 
         public int Quantity { get; private set; }
 
-
         public Stack(Detail detail, int quantity)
         {
             _detail = detail;
@@ -310,7 +309,6 @@ namespace ServiceStation
         public int InstallationPrice { get; private set; }
         public bool IsWorking { get; private set; }
         public bool IsInStock { get; private set; }
-
 
         public Detail(string name, int price, int installationPrice)
         {
